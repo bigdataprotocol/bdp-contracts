@@ -1,0 +1,32 @@
+{
+  "name": "unknow-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bignumber.js": "9.0.0",
+    "bip39": "3.0.2",
+    "bn.js": "^5.1.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "8.2.0",
+    "ethereumjs-wallet": "0.6.3",
+    "express": "^4.17.1",
+    "moment-timezone": "0.5.28",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.2"
+  },
+  "engines": {
+    "node": "10.18.1"
+  }
+}
